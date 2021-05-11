@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,200;1,300;1,400&display=swap');
+*
+{
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 50px;
+    //display: flex;
+    align-items: center;
+    background: #21283a;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+.about {
+    color: #fff;
+
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    letter-spacing: 1.5px;
+    h2 {
+        padding: 2px;
+        font-weight: 400;
+        color: #1ede6d;
+        font-size: 2em;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    .land {
+        margin-bottom: 20px;
+    }
+    li {
+        margin-left: 20px;
+        margin-top: 10px;
+        color: #1ede6d;
+    }
+    span {
+        color: #fff;
+    }
+}
+.services {
+    display: grid;
+    text-align: baseline;
+    h2 {
+        color:#1ede6d;
+        font-weight: 400;
+        padding: 2px;
+        font-size: 2em;
+        letter-spacing: 2px;
+        
+
+    }
+    ul{
+        margin-top: 30px;
+        li {
+            text-decoration: none;
+            list-style: none;
+            padding: 2px;
+            margin-left: 8px;
+            margin-bottom: 5px;
+            span{
+              background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='plus' class='svg-inline--fa fa-plus fa-w-14' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%231ede6d' d='M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z'%3E%3C/path%3E%3C/svg%3E");
+              background-repeat: no-repeat;
+              display: inline-block;
+              width: 15px;
+              height: 15px;
+            }
+
+            p {
+                color: #fff;
+                font-weight: 300px;
+                font-size: 1.5em;
+                letter-spacing: 1px;
+                margin-left: 20px;
+                align-items: center;
+                //width: 100%;
+                vertical-align: baseline;
+                display: inline-block;
+            }
+        }
+    }    
+    
+}
+.works {
+    //display: inline;
+    
+
+    h2{
+        color: #1ede6d;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 2px;
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+    .works_container {
+        //max-width: 40%;
+        //max-height: 30%;
+        // display: inline-block;
+        //border: 3px solid #1ede6d;
+        list-style: none;
+        
+        img {
+            margin: 10px;  
+            border: 3px solid #1ede6d; 
+            text-decoration: none;
+            display: block;
+            //float: left;    
+            
+        }
+        img:hover{
+            transform: scale(1.1);
+        }
+        .first {
+            max-width: 30%;
+            max-height: auto;
+
+        }
+        .second {
+            max-width: 30.2%;
+            max-height: auto;
+        }
+        .third {
+            max-width: 80%;
+            max-height: auto;
+        }
+        
+    }
+    
+}
+.section-title {
+
+    color: #1ede6d;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 2px;
+    font-size: 2em;
+    letter-spacing: 2px;
+
+}
+
+.contact__input{
+    width: 100%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 16px;
+    border-radius: .5rem;
+    border: 2px solid #1ede6d;
+    outline: none;
+    margin-bottom: var(--mb-4);
+    margin: 5px;
+  }
+  .contact__button{
+    display: block;
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+    margin-left: auto;
+    padding: 20px 50px;
+    border-radius: 5em;
+    background-color: #1ede6d;
+   
+  }
+
